@@ -1362,10 +1362,10 @@ a {
 }
 @media (min-width: 768px) {
   .cid-uzqMZEcnne {
-    align-items: flex-end;
+    align-items: center;
   }
   .cid-uzqMZEcnne .row {
-    justify-content: flex-start;
+    justify-content: center;
   }
   .cid-uzqMZEcnne .content-wrap {
     padding: 1rem 3rem;
@@ -1379,7 +1379,7 @@ a {
 @media (max-width: 767px) {
   .cid-uzqMZEcnne {
     -webkit-align-items: center;
-    align-items: flex-end;
+    align-items: center;
   }
   .cid-uzqMZEcnne .mbr-row {
     -webkit-justify-content: center;
@@ -1416,33 +1416,6 @@ a {
 .cid-uzqMZEcnne .mbr-section-subtitle {
   color: #F55D3E;
 }
-.cid-uzqMZEfKY7 {
-  padding-top: 3rem;
-  padding-bottom: 0rem;
-  background-color: #ffeff7;
-}
-.cid-uzqMZEfKY7 .item:focus,
-.cid-uzqMZEfKY7 span:focus {
-  outline: none;
-}
-.cid-uzqMZEfKY7 .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-  overflow: hidden;
-}
-.cid-uzqMZEfKY7 .content-head {
-  max-width: 800px;
-}
-.cid-uzqMZEfKY7 .item {
-  color: #f090bb;
-  min-height: 90px;
-  font-weight: bold;
-}
-@media (max-width: 768px) {
-  .cid-uzqMZEfKY7 .item {
-    min-height: 45px;
-  }
-}
 .cid-uzr5V8J9jj .features17 {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -1477,6 +1450,33 @@ a {
   }
   .cid-uzr5V8J9jj .card {
     margin-bottom: 1rem;
+  }
+}
+.cid-uzqMZEfKY7 {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-color: #ffeff7;
+}
+.cid-uzqMZEfKY7 .item:focus,
+.cid-uzqMZEfKY7 span:focus {
+  outline: none;
+}
+.cid-uzqMZEfKY7 .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+.cid-uzqMZEfKY7 .content-head {
+  max-width: 800px;
+}
+.cid-uzqMZEfKY7 .item {
+  color: #f090bb;
+  min-height: 90px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .cid-uzqMZEfKY7 .item {
+    min-height: 45px;
   }
 }
 .cid-uzrbFNpXuF {
@@ -1597,85 +1597,6 @@ a {
     text-align: center;
   }
 }
-.cid-uzs0fTlIwV .panel-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-}
-.cid-uzs0fTlIwV .panel-grid-cell {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-sizing: border-box;
-}
-.cid-uzs0fTlIwV .widget-title {
-  font-size: 24px;
-  color: #443f3f;
-  margin-bottom: 15px;
-}
-.cid-uzs0fTlIwV .textwidget p,
-.cid-uzs0fTlIwV .mbr-text {
-  line-height: 1.6;
-  color: #555;
-}
-.cid-uzs0fTlIwV .card-title {
-  color: #f090bb;
-  margin-bottom: 0.5rem;
-}
-.cid-uzs0fTlIwV .contact-email {
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  color: #443f3f;
-}
-.cid-uzs0fTlIwV .contact-email i {
-  margin-right: 8px;
-  color: #443f3f;
-}
-.cid-uzs0fTlIwV .contact-email a {
-  color: #443f3f;
-  text-decoration: none;
-}
-.cid-uzs0fTlIwV .sydney-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-.cid-uzs0fTlIwV .roll-progress {
-  margin-bottom: 20px;
-}
-.cid-uzs0fTlIwV .roll-progress .name {
-  font-size: 16px;
-  color: #443f3f;
-  margin-bottom: 5px;
-}
-.cid-uzs0fTlIwV .progress-bar {
-  height: 5px;
-  background: #ddd;
-  border-radius: 3px;
-  overflow: hidden;
-  position: relative;
-}
-.cid-uzs0fTlIwV .progress-animate {
-  height: 100%;
-  background: #443f3f;
-  transition: width 0.3s ease-in-out;
-}
-.cid-uzs0fTlIwV .content-wrapper {
-  background: #fafafa;
-  padding: 2rem;
-}
-@media (max-width: 768px) {
-  .cid-uzs0fTlIwV .panel-grid {
-    grid-template-columns: 1fr;
-  }
-}
 .cid-uzs2fanGUI body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -1684,15 +1605,13 @@ a {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1350px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
 }
 .cid-uzs2fanGUI .panel-grid-cell {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border: 1px solid #ddd;
+  padding: 10px;
   border-radius: 8px;
   box-sizing: border-box;
 }
@@ -1711,6 +1630,7 @@ a {
 .cid-uzs2fanGUI .card-title {
   color: #f090bb;
   margin-bottom: 0.5rem;
+  text-align: left;
 }
 .cid-uzs2fanGUI .contact-email {
   display: flex;
@@ -1759,6 +1679,10 @@ a {
   .cid-uzs2fanGUI .panel-grid {
     grid-template-columns: 1fr;
   }
+}
+.cid-uzs2fanGUI .mbr-text,
+.cid-uzs2fanGUI .mbr-section-btn {
+  text-align: left;
 }
 .cid-uzqMZEf1dq {
   padding-top: 5rem;
