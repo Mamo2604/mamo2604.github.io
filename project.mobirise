@@ -285,7 +285,7 @@
         "url": "https://fonts.googleapis.com/css?family=Fredoka:300,400,500,600,700"
       }
     ],
-    "uniqCompNum": 17,
+    "uniqCompNum": 21,
     "imageResize": false,
     "imageSearchQuery": "artistic",
     "favicon": false,
@@ -1147,10 +1147,10 @@
               "color": "#f090bb"
             },
             ".mbr-section-subtitle": {
-              "color": "#F55D3E"
+              "color": "#ffec5e"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"24\" step=\"1\" value=\"20\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"3\" max=\"12\" step=\"1\" value=\"12\">\n    <header>Show / Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n    <select title=\"Vertical Align\" name=\"verticalAlign\" condition=\"fullScreen\">\n      <option value=\"flex-start\">Top</option>\n      <option value=\"center\">Center</option>\n      <option value=\"flex-end\" selected>Bottom</option>\n    </select>\n    <select title=\"Horizontal Align\" name=\"horizontalAlign\">\n      <option value=\"flex-start\">Left</option>\n      <option value=\"center\" selected>Center</option>\n      <option value=\"flex-end\">Right</option>\n    </select>\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background17.jpg\" parallax selected>\n      <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/embed/oIDKMOVf_RI?autoplay=1&loop=1&playlist=oIDKMOVf_RI&t=20&mute=1&playsinline=1&controls=0&showinfo=0&autohide=1&allowfullscreen=true&mode=transparent\">\n      <input type=\"color\" title=\"Color\" value=\"#260a30\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row\">\n      <div class=\"content-wrap col-12 col-md-{{contentWidth}}\">\n        <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-4\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><b>✧ Bienvenue sur mon Portfolio ✧</b></h1>\n        <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-4\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\">\n          Header Subtitle\n        </h2>\n        <p class=\"mbr-fonts-style mbr-text mbr-white mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Je suis une graphiste et illustratrice passionnée par les créations uniques.<br></p>\n        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-secondary\" href=\"index.html#features-69-uzqMZEfKY7\" data-app-placeholder=\"Type Text\">Explorez mes projets</a></div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"24\" step=\"1\" value=\"20\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"3\" max=\"12\" step=\"1\" value=\"12\">\n    <header>Show / Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n    <select title=\"Vertical Align\" name=\"verticalAlign\" condition=\"fullScreen\">\n      <option value=\"flex-start\">Top</option>\n      <option value=\"center\">Center</option>\n      <option value=\"flex-end\" selected>Bottom</option>\n    </select>\n    <select title=\"Horizontal Align\" name=\"horizontalAlign\">\n      <option value=\"flex-start\">Left</option>\n      <option value=\"center\" selected>Center</option>\n      <option value=\"flex-end\">Right</option>\n    </select>\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background17.jpg\" parallax selected>\n      <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/embed/oIDKMOVf_RI?autoplay=1&loop=1&playlist=oIDKMOVf_RI&t=20&mute=1&playsinline=1&controls=0&showinfo=0&autohide=1&allowfullscreen=true&mode=transparent\">\n      <input type=\"color\" title=\"Color\" value=\"#260a30\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n    <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row\">\n      <div class=\"content-wrap col-12 col-md-{{contentWidth}}\">\n        <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-4\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><b>✧ Bienvenue sur mon Portfolio ✧</b></h1>\n        <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-4\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>⚠️SITE ENCORE EN CONSTRUCTION⚠️</b></h2>\n        <p class=\"mbr-fonts-style mbr-text mbr-white mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Je suis une graphiste et illustratrice passionnée par les créations uniques.<br></p>\n        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-secondary\" href=\"index.html#features-69-uzqMZEfKY7\" data-app-placeholder=\"Type Text\">Explorez mes projets</a></div>\n      </div>\n    </div>\n  </div>\n</section>",
           "_name": "header18",
           "_sourceTheme": "startm5",
           "_cid": "uzqMZEcnne",
@@ -1375,10 +1375,12 @@
               "max-width": "1250px",
               "margin": "0 auto",
               "padding": "20px",
+              "padding-bottom": "0px",
               "box-sizing": "border-box"
             },
             ".panel-grid-cell": {
               "padding": "10px",
+              "padding-bottom": "0px",
               "border-radius": "8px",
               "box-sizing": "border-box",
               "clear": "both"
@@ -1392,12 +1394,13 @@
             },
             ".textwidget p, .mbr-text": {
               "line-height": "1.6",
-              "color": "#555"
+              "color": "#555",
+              "text-align": "left"
             },
             ".card-title": {
               "color": "#f090bb",
-              "margin-bottom": "0.5rem",
-              "text-align": "left"
+              "margin-bottom": "1rem",
+              "text-align": "center"
             },
             ".contact-email": {
               "display": "flex",
@@ -1423,8 +1426,40 @@
             },
             ".roll-progress .name": {
               "font-size": "16px",
-              "color": "#443f3f",
-              "margin-bottom": "5px"
+              "color": "#443f3f"
+            },
+            ".logo-section": {
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "center",
+              "align-items": "center",
+              "padding": "20px",
+              "padding-top": "0px",
+              "background-color": "#ffffff",
+              "text-align": "center"
+            },
+            ".logo-grid": {
+              "display": "grid",
+              "grid-template-columns": "repeat(auto-fit, minmax(100px, 1fr))",
+              "gap": "20px",
+              "justify-content": "center",
+              "align-content": "center",
+              "max-width": "1200px"
+            },
+            ".logo-item": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".logo-item img": {
+              "width": "80px",
+              "height": "auto",
+              "border-radius": "0 !important",
+              "transition": "transform 0.3s ease, box-shadow 0.3s ease"
+            },
+            ".logo-item img:hover": {
+              "transform": "scale(1.1)",
+              "box-shadow": "0 4px 10px rgba(133, 42, 110, 0.2)"
             },
             ".progress-bar": {
               "height": "5px",
@@ -1440,7 +1475,7 @@
             },
             ".content-wrapper": {
               "background": "#fafafa",
-              "padding": "2rem"
+              "padding": "1rem"
             },
             "@media (max-width: 768px)": {
               ".panel-grid": {
@@ -1450,7 +1485,7 @@
                 "grid-template-columns": "repeat(auto-fit, minmax(80px, 1fr))"
               },
               ".logo-item img": {
-                "width": "80px"
+                "width": "50px"
               }
             },
             ".mbr-text, .mbr-section-btn": {
@@ -1463,73 +1498,9 @@
           },
           "_name": "witsec-html-block",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n      <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <header>Size</header>\n      <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n      <header>Background</header>\n      <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\n      <!-- Text Settings -->\n      <header>Text Settings</header>\n      <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n      <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n      <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#fafafa\" selected>\n      <input type=\"color\" title=\"Text Color\" name=\"textColor\" value=\"#333333\" selected>\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n  <!-- Place your own code below -->\n\n  <section class=\"panel-grid\">\n      <!-- Column 1 -->\n      <div class=\"panel-grid-cell\">\n          <div class=\"so-panel widget widget_text\">\n              <div class=\"panel-widget-style\">\n                  <div class=\"textwidget\">\n                      <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>À propos de moi</b></h6>\n                          <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">✧ <b>Salut !&nbsp;</b>✧<b><br></b>Je suis MamoDrawsArt (ou Mamo)<br>&nbsp;Une artiste basée à Tahiti, passionnée par l’illustration et le design. <br>Après des études en Communication Visuelle Pluri Média et Poly3D à la CCISM, j’ai développé une approche créative et technique pour concevoir des visuels uniques.<br><br>Je me spécialise dans la création de contenus et de logos, d’illustrations stylisé manga/anime et de visuels en tout genre, tout en cherchant toujours à des solutions créatives et fonctionnelles.<br></p>\n                  </div>\n              </div>\n          </div>\n      </div>\n\n      <!-- Column 2 -->\n      <div class=\"panel-grid-cell\">\n          <div class=\"so-panel widget widget_sydney_image_widget\">\n              <div class=\"panel-widget-style\">\n                  <div class=\"sydney-image\">\n                      <img src=\"@PROJECT_PATH@/assets/images/image01-1.png\" alt=\"Mamo Draws Art\">\n                  </div>\n              </div>\n          </div>\n      </div>\n\n      <!-- Column 3 -->\n      <div class=\"panel-grid-cell\">\n          <div class=\"so-panel widget widget_sydney_skills\">\n              <div class=\"panel-widget-style\">\n                  <div class=\"textwidget\">\n                      <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Mes compétences</b></h6>\n                          <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><b>Illustration numérique :</b> Création d’illustrations détaillées avecPhotoshop &amp; Krita<br><b><br></b><b>Design 3D :</b> Modélisation et animation 3D avec Blender, pour des projets de jeux et animations.<br><b><br></b><b>Programmation :</b> Développement avec Unreal Engine (Blueprints &amp; C++)<br><b><br></b><b>Création de visuels :</b> Design de visuels pour web et print avec Illustrator, Photoshop, et Canva<br></p>\n                  </div>\n              </div>\n          </div>\n      </div>\n  </section>\n\n  <!-- Place your own code above -->\n\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "witsec-html-block-d",
-          "_isUserblock": true,
-          "_cid": "uzs2fanGUI",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "witsec-code-editor/components",
-          "_isSecondary": true,
-          "_styles": {
-            ".logo-section": {
-              "margin-top": "0",
-              "padding": "40px 20px",
-              "background-color": "#ffffff",
-              "text-align": "center"
-            },
-            ".logo-section h2": {
-              "font-size": "36px",
-              "font-weight": "bold",
-              "color": "#333",
-              "margin-bottom": "20px"
-            },
-            ".card-title": {
-              "color": "#f090bb",
-              "margin-bottom": "0.5rem",
-              "text-align": "center"
-            },
-            ".logo-grid": {
-              "display": "grid",
-              "grid-template-columns": "repeat(auto-fit, minmax(120px, 1fr))",
-              "gap": "20px",
-              "justify-items": "center",
-              "align-items": "center",
-              "max-width": "1200px",
-              "margin": "0 auto",
-              "padding": "20px",
-              "box-sizing": "border-box"
-            },
-            ".logo-item img": {
-              "width": "100px",
-              "height": "auto",
-              "border-radius": "8px",
-              "transition": "transform 0.3s ease, box-shadow 0.3s ease"
-            },
-            ".logo-item img:hover": {
-              "transform": "scale(1.1)",
-              "box-shadow": "0 4px 10px rgba(133, 42, 110, 0.2)"
-            },
-            "@media (max-width: 768px)": {
-              ".logo-grid": {
-                "grid-template-columns": "repeat(auto-fit, minmax(80px, 1fr))"
-              },
-              ".logo-item img": {
-                "width": "80px"
-              }
-            }
-          },
-          "_name": "witsec-html-block",
-          "_sourceTheme": "startm5",
-          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n    <input type=\"image\" title=\"Background Image\" value=\"../_images/background.jpg\" parallax>\n    <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n    <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n<!-- Place your own code below -->\n<section class=\"logo-section\">\n<h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>Les logiciels que j'utilises</b></h6>\n    <div class=\"logo-grid\">\n        <div class=\"logo-item\">\n            <img src=\"assets/images/photoshop-logo.png\" alt=\"Photoshop\">\n        </div>\n        <div class=\"logo-item\">\n            <img src=\"assets/images/illustrator-logo.png\" alt=\"Illustrator\">\n        </div>\n        <div class=\"logo-item\">\n            <img src=\"assets/images/blender-logo.png\" alt=\"Blender\">\n        </div>\n        <div class=\"logo-item\">\n            <img src=\"assets/images/krita-logo.png\" alt=\"Krita\">\n        </div>\n        <div class=\"logo-item\">\n            <img src=\"assets/images/unreal-engine-logo.png\" alt=\"Unreal Engine\">\n        </div>\n        <div class=\"logo-item\">\n            <img src=\"assets/images/canva-logo.png\" alt=\"Canva\">\n        </div>\n    </div>\n</section>\n\n\n<!-- Place your own code above -->\n\n</section>",
-          "_cid": "uzsCZmsW9a",
-          "_anchor": "witsec-html-block-g",
+          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n      <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n      <header>Background</header>\n      <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\n      <!-- Text Settings -->\n      <header>Text Settings</header>\n      <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n      <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n      <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#fafafa\" selected>\n      <input type=\"color\" title=\"Text Color\" name=\"textColor\" value=\"#333333\" selected>\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n  <!-- Place your own code below -->\n\n  <section class=\"panel-grid\">\n      <!-- Column 1 -->\n      <div class=\"panel-grid-cell\">\n          <div class=\"so-panel widget widget_text\">\n              <div class=\"panel-widget-style\">\n                  <div class=\"textwidget\">\n                      <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>À propos de moi</b></h6>\n                          <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">✧ <b>Salut !&nbsp;</b>✧<b><br></b>Je suis MamoDrawsArt (ou Mamo)<br>&nbsp;Une artiste basée à Tahiti, passionnée par l’illustration et le design. <br>Après des études en Communication Visuelle Pluri Média et Poly3D à la CCISM, j’ai développé une approche créative et technique pour concevoir des visuels uniques.<br><br>Je me spécialise dans la création de contenus et de logos, d’illustrations stylisé manga/anime et de visuels en tout genre, tout en cherchant toujours à des solutions créatives et fonctionnelles.<br></p>\n                  </div>\n              </div>\n          </div>\n      </div>\n\n      <!-- Column 2 -->\n      <div class=\"panel-grid-cell\">\n          <div class=\"so-panel widget widget_sydney_image_widget\">\n              <div class=\"panel-widget-style\">\n                  <div class=\"sydney-image\">\n                      <img src=\"@PROJECT_PATH@/assets/images/image01-1.png\" alt=\"Mamo Draws Art\">\n                  </div>\n              </div>\n          </div>\n      </div>\n\n      <!-- Column 3 -->\n      <div class=\"panel-grid-cell\">\n          <div class=\"so-panel widget widget_sydney_skills\">\n              <div class=\"panel-widget-style\">\n                  <div class=\"textwidget\">\n                      <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Mes compétences</b></h6>\n                          <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><b>Illustration numérique :</b> Création d’illustrations détaillées avecPhotoshop &amp; Krita<br><b><br></b><b>Design 3D :</b> Modélisation et animation 3D avec Blender, pour des projets de jeux et animations.<br><b><br></b><b>Programmation :</b> Développement avec Unreal Engine (Blueprints &amp; C++)<br><b><br></b><b>Création de visuels :</b> Design de visuels pour web et print avec Illustrator, Photoshop, et Canva<br></p>\n                  </div>\n              </div>\n          </div>\n      </div>\n  </section>\n\n  <!-- Ajout du code 2 : Les logiciels que j'utilise -->\n  <section class=\"logo-section\">\n      <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>Les logiciels que j'utilises</b></h6>\n      <div class=\"logo-grid\">\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/photoshop.png\" alt=\"Photoshop\">\n          </div>\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/illustrator.png\" alt=\"Illustrator\">\n          </div>\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/indesign.png\" alt=\"InDesign\">\n          </div>\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/after-effects.png\" alt=\"After Effects\">\n          </div>\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/premiere-pro.png\" alt=\"Premiere Pro\">\n          </div>\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/capcut.png\" alt=\"Capcut\">\n          </div>\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/blender.png\" alt=\"Blender\">\n          </div>\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/krita.png\" alt=\"Krita\">\n          </div>\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/unreal-engine-4.png\" alt=\"Unreal Engine 4\">\n          </div>\n          <div class=\"logo-item\">\n              <img src=\"@PROJECT_PATH@/assets/images/vroid.png\" alt=\"VRoid\">\n          </div>\n      </div>\n  </section>\n\n  <!-- Place your own code above -->\n\n</section>",
+          "_cid": "uzvorTpfXA",
+          "_anchor": "witsec-html-block-j",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
