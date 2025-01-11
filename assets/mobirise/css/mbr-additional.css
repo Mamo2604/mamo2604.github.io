@@ -1524,7 +1524,7 @@ a {
   width: 100%;
   bottom: 0;
   padding: 1rem;
-  color: #fff;
+  color: #f090bb;
   z-index: 2;
 }
 .cid-3YjBNkvAuU .mbr-gallery-title:before {
@@ -1541,8 +1541,8 @@ a {
   transition: 0.2s background ease-in-out;
 }
 .cid-uzvorTpfXA {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .cid-uzvorTpfXA body {
   font-family: 'Open Sans', sans-serif;
@@ -1608,6 +1608,8 @@ a {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: flex;
+  margin: auto;
 }
 .cid-uzvorTpfXA .roll-progress {
   margin-bottom: 20px;
@@ -1665,15 +1667,20 @@ a {
   background: #fafafa;
   padding: 1rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .cid-uzvorTpfXA .panel-grid {
     grid-template-columns: 1fr;
   }
   .cid-uzvorTpfXA .logo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
   .cid-uzvorTpfXA .logo-item img {
-    width: 50px;
+    width: 80px;
+  }
+  .cid-uzvorTpfXA .sydney-image img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
   }
 }
 .cid-uzvorTpfXA .mbr-text,
