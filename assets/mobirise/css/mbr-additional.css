@@ -1350,7 +1350,7 @@ a {
 }
 .cid-uzqMZEcnne {
   display: flex;
-  background-image: url("../../../assets/images/background17.webp");
+  background-image: url("../../../assets/images/20230906-83513.webp");
 }
 .cid-uzqMZEcnne .mbr-overlay {
   background-color: #000000;
@@ -1652,14 +1652,12 @@ a {
   align-items: center;
 }
 .cid-uzvorTpfXA .logo-item img {
-  width: 80px;
+  width: 60px;
   height: auto;
   border-radius: 0 !important;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .cid-uzvorTpfXA .logo-item img:hover {
   transform: scale(1.1);
-  box-shadow: 0 4px 10px rgba(133, 42, 110, 0.2);
 }
 .cid-uzvorTpfXA .progress-bar {
   height: 5px;
