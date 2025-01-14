@@ -1509,8 +1509,8 @@ a {
 }
 .cid-3YjBNkvAuU .mbr-gallery-title:before {
   content: " ";
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   top: 0;
   left: 0;
   z-index: -1;
@@ -1724,21 +1724,6 @@ a {
   width: 70px;
   height: auto;
   border-radius: 0 !important;
-}
-.cid-uzvorTpfXA .logo-item img:hover {
-  transform: scale(1.1);
-}
-.cid-uzvorTpfXA .progress-bar {
-  height: 5px;
-  background: #ddd;
-  border-radius: 3px;
-  overflow: hidden;
-  position: relative;
-}
-.cid-uzvorTpfXA .progress-animate {
-  height: 100%;
-  background: #443f3f;
-  transition: width 0.3s ease-in-out;
 }
 .cid-uzvorTpfXA .content-wrapper {
   background: #fafafa;
