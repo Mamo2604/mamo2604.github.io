@@ -1139,7 +1139,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #f090bb;
 }
 .cid-uzqWIlz88G button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1521,8 +1521,18 @@ a {
 }
 .cid-3YjBNkvAuU .card-title {
   color: #f090bb;
-  margin-bottom: 0.5rem;
   text-align: left;
+}
+.cid-3YjBNkvAuU .mbr-section-title {
+  color: #f090bb;
+}
+.cid-3YjBNkvAuU .mbr-text,
+.cid-3YjBNkvAuU .mbr-section-btn {
+  color: #232323;
+  text-align: center;
+}
+.cid-3YjBNkvAuU .content-head {
+  max-width: 800px;
 }
 .cid-uzw1LL0JAP {
   padding-top: 1rem;
