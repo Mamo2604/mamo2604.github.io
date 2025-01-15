@@ -1827,6 +1827,116 @@ a {
 .cid-yIC1VRW3Je .hidden {
   display: none;
 }
+.cid-egzIkw9mVv P {
+  color: #1281fc;
+}
+.cid-egzIkw9mVv DIV {
+  color: #ffffff;
+}
+.cid-egzIkw9mVv H10 {
+  color: #034e75;
+}
+.cid-egzIkw9mVv .hidden {
+  display: none;
+}
+.cid-egzIkw9mVv .icon-bar {
+  z-index: 100002;
+  position: fixed;
+  top: 39%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-right: 21px;
+}
+.cid-egzIkw9mVv .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 7px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  padding-left: 21px;
+}
+.cid-egzIkw9mVv .icon-bar a:hover {
+  background-color: #f090bb;
+}
+.cid-egzIkw9mVv .flag {
+  background: transparent;
+}
+.cid-egzIkw9mVv .content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.cid-egzIkw9mVv .nav-right {
+  float: left !important;
+  position: relative;
+}
+.cid-egzIkw9mVv #google_translate_element {
+  display: none;
+}
+.cid-egzIkw9mVv .goog-te-banner {
+  display: none;
+}
+.cid-egzIkw9mVv .skiptranslate {
+  display: none;
+  bottom: 0px;
+  position: relative;
+}
+.cid-egzIkw9mVv .goog-te-spinner-pos {
+  display: none !important;
+}
+.cid-egzIkw9mVv body {
+  top: 0px !important;
+}
+.cid-egzIkw9mVv body body {
+  top: 0 !important;
+}
+.cid-egzIkw9mVv body .goog-te-banner-frame {
+  display: none !important;
+}
+.cid-egzIkw9mVv .goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+.cid-egzIkw9mVv .goog-tooltip {
+  display: none !important;
+}
+.cid-egzIkw9mVv .goog-tooltip:hover {
+  display: none !important;
+}
+.cid-egzIkw9mVv .goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: none !important;
+  Background-color: transparent;
+}
+.cid-egzIkw9mVv #goog-gt-tt,
+.cid-egzIkw9mVv .goog-te-balloon-frame {
+  display: none !important;
+}
+.cid-egzIkw9mVv #goog-gt-tt {
+  visibility: hidden;
+  display: none !important;
+}
+.cid-egzIkw9mVv .goog-logo-link {
+  display: none !important;
+}
+.cid-egzIkw9mVv .goog-te-gadget {
+  height: 28px !important;
+  overflow: hidden;
+}
+.cid-egzIkw9mVv div.imgtest {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  content: url(https://www.unsitepourtous.be/logoscript/logo-zen.png);
+}
+.cid-egzIkw9mVv div.imgtest2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  content: url(https://www.unsitepourtous.be/logoscript/flags145.png);
+}
 .cid-uzOTVwLNqB {
   z-index: 1000;
   width: 100%;
